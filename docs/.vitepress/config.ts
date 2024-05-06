@@ -25,7 +25,7 @@ export default defineConfig({
   themeConfig: {
     i18nRouting: false,
 
-    logo: '/logo.png',
+    // logo: '/logo.png',
 
     nav,
     sidebar,
@@ -35,8 +35,6 @@ export default defineConfig({
       level: 'deep',
       label: '目录',
     },
-
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
 
     footer: {
       copyright: 'Copyright © 2019-present maomao',
@@ -62,16 +60,16 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
 
     /*** 自定义配置 ***/
-    visitor: {
-      badgeId: 'maomao1996.vitepress-nav-template',
-    },
+    // visitor: {
+    //   badgeId: 'maomao1996.vitepress-nav-template',
+    // },
 
-    comment: {
-      repo: 'maomao1996/vitepress-nav-template',
-      repoId: 'R_kgDOJC09Jg',
-      category: 'Announcements',
-      categoryId: 'DIC_kwDOJC09Js4Cekn0',
-    },
+    // comment: {
+    //   repo: 'maomao1996/vitepress-nav-template',
+    //   repoId: 'R_kgDOJC09Jg',
+    //   category: 'Announcements',
+    //   categoryId: 'DIC_kwDOJC09Js4Cekn0',
+    // },
   },
 
   vite: {

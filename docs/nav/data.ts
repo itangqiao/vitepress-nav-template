@@ -10,12 +10,6 @@ export const NAV_DATA: NavData[] = [
     title: '常用工具',
     items: [
       {
-        icon: 'https://caniuse.com/img/favicon-128.png',
-        title: 'Can I use',
-        desc: '前端 API 兼容性查询',
-        link: 'https://caniuse.com',
-      },
-      {
         icon: 'https://tinypng.com/images/apple-touch-icon.png',
         title: 'TinyPNG',
         desc: '在线图片压缩工具',
@@ -42,56 +36,67 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: 'AI 导航',
+    title: 'Vue 生态',
     items: [
       {
-        icon: '/icons/chatgpt.png',
-        title: 'ChatGPT（最强）',
-        link: 'https://chat.openai.com/chat',
+        icon: 'https://cn.vuejs.org/logo.svg',
+        title: 'Vue 3',
+        desc: '渐进式 JavaScript 框架',
+        link: 'https://cn.vuejs.org',
       },
       {
-        icon: 'https://www.notion.so/images/logo-ios.png',
-        title: 'Notion AI（笔记）',
-        link: 'https://www.notion.so',
+        icon: 'https://cn.vuejs.org/logo.svg',
+        title: 'Vue 2',
+        desc: '渐进式 JavaScript 框架',
+        link: 'https://v2.cn.vuejs.org',
       },
       {
-        icon: 'https://www.midjourney.com/apple-touch-icon.png',
-        title: 'Midjourney（绘画）',
-        link: 'https://www.midjourney.com',
+        icon: 'https://cn.vuejs.org/logo.svg',
+        title: 'Vue Router',
+        desc: 'Vue.js 的官方路由\n为 Vue.js 提供富有表现力、可配置的、方便的路由',
+        link: 'https://router.vuejs.org/zh',
       },
       {
-        icon: 'https://global-uploads.webflow.com/59deb588800ae30001ec19c9/5d4891e0e260e3c1bc37b100_beautiful%20ai%20favicon%20%20blue%20square.png',
-        title: 'Beautiful.ai（PPT）',
-        link: 'https://www.beautiful.ai',
-      },
-    ],
-  },
-  {
-    title: '茂茂的站点导航',
-    items: [
-      {
-        icon: '/logo.png',
-        title: '前端日常笔记',
-        desc: '日常笔记记录（零零散散啥都记系列）',
-        link: 'https://github.com/maomao1996/daily-notes',
+        icon: 'https://pinia.vuejs.org/logo.svg',
+        title: 'Pinia',
+        desc: '符合直觉的 Vue.js 状态管理库',
+        link: 'https://pinia.vuejs.org/zh',
       },
       {
-        icon: '/logo.png',
-        title: '前端思维导图',
-        desc: '用思维导图的方式总结个人所学知识',
-        link: 'https://mindmap.fe-mm.com',
+        icon: 'https://nuxt.com/icon.png',
+        title: 'Nuxt.js',
+        desc: '一个基于 Vue.js 的通用应用框架',
+        link: 'https://nuxt.com',
       },
       {
-        icon: 'https://qwerty.fe-mm.com/apple-touch-icon.png',
-        title: 'Qwerty Learner',
-        desc: '为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件',
-        link: 'https://qwerty.fe-mm.com',
+        icon: 'https://vueuse.org/favicon.svg',
+        title: 'VueUse',
+        desc: 'Vue Composition API 的常用工具集',
+        link: 'https://vueuse.org',
       },
       {
-        icon: '/logo.png',
-        title: 'mmPlayer',
-        desc: 'mmPlayer 在线音乐播放器',
-        link: 'https://netease-music.fe-mm.com',
+        icon: 'https://element-plus.org/images/element-plus-logo-small.svg',
+        title: 'Element Plus',
+        desc: '基于 Vue 3，面向设计师和开发者的组件库',
+        link: 'https://element-plus.org',
+      },
+      {
+        icon: 'https://www.antdv.com/assets/logo.1ef800a8.svg',
+        title: 'Ant Design Vue',
+        desc: 'Ant Design 的 Vue 实现，开发和服务于企业级后台产品',
+        link: 'https://antdv.com',
+      },
+      {
+        icon: 'https://fastly.jsdelivr.net/npm/@vant/assets/logo.png',
+        title: 'Vant',
+        desc: '轻量、可定制的移动端 Vue 组件库',
+        link: 'https://vant-ui.github.io/vant',
+      },
+      {
+        icon: 'https://img14.360buyimg.com/imagetools/jfs/t1/167902/2/8762/791358/603742d7E9b4275e3/e09d8f9a8bf4c0ef.png',
+        title: 'NutUI',
+        desc: '京东风格的轻量级移动端组件库',
+        link: 'https://nutui.jd.com',
       },
     ],
   },
@@ -173,95 +178,6 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: 'Vue 生态',
-    items: [
-      {
-        icon: 'https://cn.vuejs.org/logo.svg',
-        title: 'Vue 3',
-        desc: '渐进式 JavaScript 框架',
-        link: 'https://cn.vuejs.org',
-      },
-      {
-        icon: 'https://cn.vuejs.org/logo.svg',
-        title: 'Vue 2',
-        desc: '渐进式 JavaScript 框架',
-        link: 'https://v2.cn.vuejs.org',
-      },
-      {
-        icon: 'https://cn.vuejs.org/logo.svg',
-        title: 'Vue Router',
-        desc: 'Vue.js 的官方路由\n为 Vue.js 提供富有表现力、可配置的、方便的路由',
-        link: 'https://router.vuejs.org/zh',
-      },
-      {
-        icon: 'https://pinia.vuejs.org/logo.svg',
-        title: 'Pinia',
-        desc: '符合直觉的 Vue.js 状态管理库',
-        link: 'https://pinia.vuejs.org/zh',
-      },
-      {
-        icon: 'https://nuxt.com/icon.png',
-        title: 'Nuxt.js',
-        desc: '一个基于 Vue.js 的通用应用框架',
-        link: 'https://nuxt.com',
-      },
-      {
-        icon: 'https://vueuse.org/favicon.svg',
-        title: 'VueUse',
-        desc: 'Vue Composition API 的常用工具集',
-        link: 'https://vueuse.org',
-      },
-      {
-        icon: 'https://element-plus.org/images/element-plus-logo-small.svg',
-        title: 'Element Plus',
-        desc: '基于 Vue 3，面向设计师和开发者的组件库',
-        link: 'https://element-plus.org',
-      },
-      {
-        icon: 'https://www.antdv.com/assets/logo.1ef800a8.svg',
-        title: 'Ant Design Vue',
-        desc: 'Ant Design 的 Vue 实现，开发和服务于企业级后台产品',
-        link: 'https://antdv.com',
-      },
-      {
-        icon: 'https://fastly.jsdelivr.net/npm/@vant/assets/logo.png',
-        title: 'Vant',
-        desc: '轻量、可定制的移动端 Vue 组件库',
-        link: 'https://vant-ui.github.io/vant',
-      },
-      {
-        icon: 'https://webapp.didistatic.com/static/webapp/shield/Cube-UI_logo.ico',
-        title: 'Cube UI',
-        desc: '基于 Vue.js 实现的精致移动端组件库',
-        link: 'https://didi.github.io/cube-ui',
-      },
-      {
-        icon: 'https://img14.360buyimg.com/imagetools/jfs/t1/167902/2/8762/791358/603742d7E9b4275e3/e09d8f9a8bf4c0ef.png',
-        title: 'NutUI',
-        desc: '京东风格的轻量级移动端组件库',
-        link: 'https://nutui.jd.com',
-      },
-    ],
-  },
-  {
-    title: 'JavaScript 框架类库',
-    items: [
-      {
-        icon: 'https://svelte.dev/svelte-logo-horizontal.svg',
-        title: 'Svelte',
-        desc: '将声明性组件转换为精准高效更新 DOM 的 JavaScript 代码',
-        link: 'https://svelte.dev',
-      },
-      {
-        // icon: 'https://simpleicons.org/icons/jquery.svg',
-        icon: '/icons/jquery.svg',
-        title: 'jQuery API 中文文档',
-        desc: '一个兼容多浏览器的 JavaScript 框架',
-        link: 'https://jquery.cuishifeng.cn',
-      },
-    ],
-  },
-  {
     title: 'CSS 相关',
     items: [
       {
@@ -313,41 +229,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-  {
-    title: 'Node 相关',
-    items: [
-      {
-        icon: '/icons/nodejs.svg',
-        title: 'Node.js',
-        desc: 'Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境',
-        link: 'https://nodejs.org/zh-cn',
-      },
-      {
-        icon: 'https://expressjs.com/images/favicon.png',
-        title: 'Express',
-        desc: '基于 Node.js 平台，快速、开放、极简的 Web 开发框架',
-        link: 'https://expressjs.com',
-      },
-      {
-        icon: '/icons/koa.svg',
-        title: 'Koa',
-        desc: '基于 Node.js 平台的下一代 web 开发框架',
-        link: 'https://koajs.com',
-      },
-      {
-        icon: 'https://www.eggjs.org/favicon.png',
-        title: 'Egg',
-        desc: '为企业级框架和应用而生',
-        link: 'https://www.eggjs.org/zh-CN',
-      },
-      {
-        icon: 'https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg',
-        title: 'Nest.js 中文文档',
-        desc: '用于构建高效且可伸缩的服务端应用程序的渐进式 Node.js 框架',
-        link: 'https://docs.nestjs.cn',
-      },
-    ],
-  },
+
   {
     title: '可视化',
     items: [
@@ -489,27 +371,4 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-  {
-    title: '前端学习资料',
-    items: [
-      {
-        icon: 'https://developer.mozilla.org/apple-touch-icon.6803c6f0.png',
-        title: 'MDN | Web 开发者指南',
-        desc: 'Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资',
-        link: 'https://developer.mozilla.org/zh-CN',
-      },
-      {
-        icon: 'https://static.runoob.com/images/favicon.ico',
-        title: '菜鸟教程',
-        desc: '学的不仅是技术，更是梦想！',
-        link: 'https://www.runoob.com',
-      },
-      {
-        icon: '/icons/es6.svg',
-        title: 'ES6 入门教程',
-        desc: '阮一峰的网络日志',
-        link: 'http://es6.ruanyifeng.com',
-      },
-    ],
-  }
 ]
